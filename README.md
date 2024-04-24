@@ -35,7 +35,7 @@ In my case the queue is below 20 but above 15, so its around that, because of th
 
 **Publisher**
 
-![4](images/pub-c-png)
+![4](images/pub-c.png)
 
 **Monitoring**
 

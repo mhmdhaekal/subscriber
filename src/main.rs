@@ -19,7 +19,7 @@ impl MessageHandler<UserCreatedEventMessage> for UserCreatedHandler {
 
         //thread::sleep(ten_millis);
         println!(
-            "In Haekal's computer [129500004y] message received: {:?}",
+            "In Haekal's computer [2206817490] message received: {:?}",
             message
         );
 
@@ -43,4 +43,6 @@ fn main() {
             consume_queue_name: Some("user".to_string()),
         },
     );
+
+    loop {}
 }
